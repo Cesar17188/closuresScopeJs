@@ -11,8 +11,8 @@ moneyBox(10);
 //la asignación del valor anterior
 
 const moneyBox = () => {
+  debugger;
   var saveCoins = 0;
-
   const countCoins = (coins) => {
     saveCoins += coins;
     console.log(`MoneyBox: $${saveCoins}`);
@@ -22,6 +22,6 @@ const moneyBox = () => {
 
 let myMoneyBox = moneyBox();
 
-myMoneyBox(4); // 4
-myMoneyBox(6); // 10
-myMoneyBox(10); // 20
+myMoneyBox(4);
+myMoneyBox(6);
+myMoneyBox(10);
